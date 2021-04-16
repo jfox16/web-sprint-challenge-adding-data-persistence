@@ -113,6 +113,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+  SQL is a popular language used to query relational databases. Relational databases are a specific type of database that works with rows representing individual pieces of data and columns representing their properties.
+
 2. Why do tables need a Primary Key?
+
+  Tables need a primary key so they can be identified without relying on other properties which can change. Primary keys are guaranteed to be unique and can be indexed for faster searching.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+  A Foreign key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+  Assignment table, which has two foreign keys, one for each table.
